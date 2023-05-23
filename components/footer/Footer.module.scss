@@ -1,0 +1,145 @@
+.footer {
+  width: 1920px;
+  height: 425px;
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+  background: rgb(85, 65, 65);
+
+  .footer_main {
+    display: grid;
+    grid-template-columns: 238px 107px 187px 172px 200px;
+    margin: auto;
+    grid-column-gap: 219px;
+
+    h2 {
+      font-family: "Book Antiqua";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 35px;
+      line-height: 42px;
+
+      a {
+        color: #fafafa;
+      }
+
+      span {
+        color: #00c2ff;
+      }
+    }
+
+    .footer_grid_1 {
+      h3 {
+        font-family: "Book Antiqua";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 30px;
+        color: #fafafa;
+        padding-bottom: 28px;
+      }
+
+      ul {
+        li {
+          font-family: "Book Antiqua";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 20px;
+          line-height: 24px;
+          color: #fafafa;
+          padding-bottom: 22px;
+
+          &:last-child {
+            font-family: "Book Antiqua";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 24px;
+            color: #fafafa;
+          }
+        }
+      }
+    }
+
+    .footer_grid_2 {
+      h3 {
+        font-family: "Book Antiqua";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 30px;
+        color: #fafafa;
+        padding-bottom: 33px;
+      }
+
+      ul {
+        li {
+          font-family: "Book Antiqua";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 20px;
+          line-height: 24px;
+          color: #fafafa;
+          padding-bottom: 23px;
+
+          &:last-child {
+            font-family: "Book Antiqua";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 24px;
+            color: #fafafa;
+          }
+        }
+      }
+    }
+
+    .footer_grid_3 {
+      h3 {
+        font-family: "Book Antiqua";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 30px;
+        color: #fafafa;
+      }
+
+      span {
+        font-family: "Book Antiqua";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 27px;
+        text-decoration-line: underline;
+        color: #00c2ff;
+      }
+    }
+
+    .footer_grid_4 {
+      display: flex;
+      flex-direction: column;
+
+      h3 {
+        font-family: "Book Antiqua";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 30px;
+        color: #fafafa;
+      }
+
+      ul {
+        display: flex;
+
+        li {
+          padding-right: 20px;
+          padding-top: 40px;
+
+          &:last-child {
+            padding-top: 40px;
+          }
+        }
+      }
+    }
+  }
+}
