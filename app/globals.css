@@ -1,4 +1,8 @@
 /* Reset and base styles  */
+body {
+	background: #292A32;
+}
+
 * {
 	padding: 0px;
 	margin: 0px;
