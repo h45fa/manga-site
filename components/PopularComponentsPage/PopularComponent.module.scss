@@ -1,0 +1,74 @@
+.PopularComponent {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 27px;
+  gap: 40px;
+  width: 1478px;
+  height: 348px;
+  background: rgba(53, 54, 65, 0.9);
+  backdrop-filter: blur(15px);
+  border-radius: 15px;
+  margin: auto;
+
+  .popInside {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+    width: 1152px;
+    height: 286px;
+
+    h3 {
+      font-family: "Book Antiqua";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 35px;
+      line-height: 42px;
+      color: #fafafa;
+    }
+
+    div {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      padding: 0px;
+      gap: 19px;
+      width: 1013px;
+      height: 42px;
+      margin-top: 26px;
+      margin-bottom: 26px;
+      color: white;
+
+      button {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 8px 30px;
+        gap: 8px;
+        height: 38px;
+        border: 2px solid #fafafa;
+        border-radius: 10px;
+        font-family: "Book Antiqua";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+      }
+    }
+
+    p {
+      width: 1047px;
+      height: 150px;
+      font-family: "Book Antiqua";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 25px;
+      line-height: 30px;
+      color: #fafafa;
+    }
+  }
+}

@@ -1,0 +1,52 @@
+.HeaderSlider {
+  width: 1918px;
+  height: 557px;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(
+      90deg,
+      #21222d 0%,
+      #1b3e52 25%,
+      rgba(21, 91, 121, 0.5) 50%,
+      rgba(16, 119, 157, 0.4) 75%,
+      rgba(0, 194, 255, 0) 100%
+    ),
+    url(HeaderSliderImg.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  div {
+    margin-left: 371px;
+    margin-right: 371px;
+    margin-top: 154px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+
+    h2 {
+      font-family: "Book Antiqua";
+      font-style: italic;
+      font-weight: 700;
+      font-size: 50px;
+      line-height: 120%;
+      color: #fafafa;
+    }
+
+    p {
+      font-family: "Book Antiqua";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 25px;
+      line-height: 30px;
+      color: #fafafa;
+    }
+
+    button {
+      width: 123px;
+      height: 38px;
+      background: #ffffff;
+      border-radius: 10px;
+    }
+  }
+}

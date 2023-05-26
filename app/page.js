@@ -1,10 +1,12 @@
+import Dropdown1 from "@/components/dropdown";
 import Footer from "@/components/footer";
-import Header from "@/components/header";
+import Homepage from "@/components/homepage";
 
 export default function Home() {
   return (
     <>
-      <Header />
+      <Homepage/>
+      <Dropdown1/>
       <Footer />
     </>
   );

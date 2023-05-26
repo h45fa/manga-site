@@ -2,7 +2,7 @@ import Image from "next/image";
 import React from "react";
 import popImg from "../../public/PopularImg.png";
 import styles from "./PopularComponent.module.scss";
-const PopularComponent = () => {
+const PopularComponentHomePage = () => {
   return (
     <div className={styles.PopularComponent}>
       <div className={styles.popularImg}>
@@ -29,4 +29,4 @@ const PopularComponent = () => {
   );
 };
 
-export default PopularComponent;
+export default PopularComponentHomePage;
