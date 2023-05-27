@@ -6,6 +6,8 @@
   justify-content: space-between;
   background: transparent;
   margin-bottom: -86px;
+  z-index: 8;
+  position: relative;
 
   .header_left {
     padding-left: 70px;
@@ -86,7 +88,7 @@
     ul {
       display: flex;
       width: 133px;
-      
+
       li {
         padding-right: 25px;
 
