@@ -1,0 +1,78 @@
+.PopularPage {
+  padding-top: 94px;
+  display: flex;
+  flex-direction: column;
+  width: 1920px;
+  margin: auto;
+
+  .PopularPageHeader {
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    width: 1478px;
+    padding-bottom: 40px;
+    padding-top: 80px;
+
+    h2 {
+      font-family: "Book Antiqua";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 35px;
+      line-height: 42px;
+      color: #fafafa;
+    }
+
+    button {
+      padding: 7px 24px;
+      background: #ffffff;
+      border-radius: 10px;
+      font-family: "Book Antiqua";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 22px;
+      color: #21222d;
+    }
+  }
+
+  .PopularPageBtns {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    width: 1478px;
+    justify-content: space-between;
+    gap: 19px;
+    padding-bottom: 80px;
+
+    button {
+      padding: 8px 30px;
+      border: 2px solid #fafafa;
+      border-radius: 10px;
+      font-family: "Book Antiqua";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 22px;
+      color: #fafafa;
+
+      &:active {
+        padding: 8px 30px;
+        border: 2px solid #00c2ff;
+        border-radius: 10px;
+        font-family: "Book Antiqua";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        color: #00c2ff;
+      }
+    }
+  }
+
+  .PopularPageC {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-bottom: 80px;
+  }
+}
