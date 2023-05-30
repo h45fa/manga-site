@@ -16,14 +16,22 @@ const PopularComponentHomePage = () => {
         <div className={styles.popularName}>
           <h3>Голодные игры</h3>
           <span>Hungrу Games</span>
-        </div>          
+        </div>
         <ul className={styles.popularUl}>
-            <li>
-              Том 1
-              <span>Розділ 876</span>
-              <span>Великая герцогиня Севера оказалась бывшей злодейкой</span>
-            </li>
-          </ul>
+          <li>
+            Том 1<span>Розділ 876</span>
+            <span>Великая герцогиня Севера оказалась бывшей злодейкой</span>
+          </li>
+          <li>
+            Том 1<span>Розділ 876</span>
+            <span>Великая герцогиня Севера оказалась бывшей злодейкой</span>
+          </li>
+          <li>
+            Том 1<span>Розділ 876</span>
+            <span>Великая герцогиня Севера оказалась бывшей злодейкой</span>
+          </li>
+        </ul>
+        <button className={styles.loadMore}>+Ще 5 розділів</button>
       </div>
     </div>
   );

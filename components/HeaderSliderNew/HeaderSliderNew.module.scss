@@ -2,9 +2,10 @@
   display: flex;
   flex-direction: column;
   padding-top: 71px;
+  padding-bottom: 100px;
   
 
-  div {
+  .HSTDContainer {
     display: flex;
     margin: auto;
     padding-bottom: 32px;
@@ -18,7 +19,7 @@
       color: #fafafa;
     }
 
-    .btns {
+    .HSTDbtns {
       display: flex;
       flex-direction: row;
       align-items: flex-start;

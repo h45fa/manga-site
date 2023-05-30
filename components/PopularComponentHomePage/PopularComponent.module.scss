@@ -1,18 +1,25 @@
 .PopularComponent {
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: flex-start;
   width: 1177px;
-  height: 400px;
+  background: rgba(53, 54, 65, 0.9);
+  backdrop-filter: blur(15px);
+  border-radius: 20px;
 
   .popularImg {
+    height: 400px;
+    padding: 20px 0px 30px 20px;
     img {
-      padding: 20px 20px 30px 20px;
+      height: 360px;
+      width: 250px !important;
     }
   }
 
   .popularMain {
     padding: 20px 20px 20px 0px;
+    width: 915px;
+    padding-left: 30px;
 
     .popularCategory {
       padding-top: 13px;
@@ -71,6 +78,8 @@
 
     .popularUl {
       display: flex;
+      flex-direction: column;
+      gap: 20px;
 
       li {
         font-family: "Book Antiqua";
@@ -98,6 +107,16 @@
           }
         }
       }
+    }
+
+    .loadMore {
+      font-family: "Book Antiqua";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 24px;
+      color: #00c2ff;
+      padding-top: 35px;
     }
   }
 }

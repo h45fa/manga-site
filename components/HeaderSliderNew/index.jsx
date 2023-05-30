@@ -4,9 +4,9 @@ import styles from "./HeaderSliderNew.module.scss"
 const HeaderSliderNew = () => {
   return (
     <div className={styles.HeaderSliderToDay}>
-        <div>
+        <div className={styles.HSTDContainer}>
             <h3 className={styles.HSTDTITLE}>Новеньке</h3>
-            <div className={styles.btns}>
+            <div className={styles.HSTDbtns}>
                 <button>Романтика</button>
                 <button>Ісекай</button>
                 <button>Фантастика</button>
