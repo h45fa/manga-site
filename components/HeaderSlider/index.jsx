@@ -1,22 +1,44 @@
-import React from "react";
-import styles from "./HeaderSlider.module.scss";
+"use client";
+import React from 'react';
+import HeaderSliderComponent from "../HeaderSliderComponent";
+import "./swiperstyle.css";
+//Swiper
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Pagination } from "swiper";
+
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/pagination";
 const HeaderSlider = () => {
   return (
-    <div className={styles.HeaderSlider}>
-      <div>
-        <h2>Выбери меня!</h2>
-        <p>
-          От студии, создавшей «Поднятие Уровня в одиночку», «Возвращение героя
-          уровня катастрофы» и Всеведущий читатель». «Выбери меня!» – мобильная
-          гача, известная невероятной сложностью. Хан Со Джин, один из пяти
-          сильнейших "мастеров" мира, теряет сознание во время прохождения
-          особого подземелья, а просыпается уже в теле 1-звёздочного персонажа
-          по имени Хан Ислат под управлением другого игрока.
-        </p>
-        <button>Читати</button>
-      </div>
-    </div>
-  );
-};
+    <Swiper
+        pagination={true}
+        modules={[Pagination]}
+        className="mySwiper"
+      >
+        <SwiperSlide>
+          <HeaderSliderComponent />
+        </SwiperSlide>
+        <SwiperSlide>
+          <HeaderSliderComponent />
+        </SwiperSlide>
+        <SwiperSlide>
+          <HeaderSliderComponent />
+        </SwiperSlide>
+        <SwiperSlide>
+          <HeaderSliderComponent />
+        </SwiperSlide>
+        <SwiperSlide>
+          <HeaderSliderComponent />
+        </SwiperSlide>
+        <SwiperSlide>
+          <HeaderSliderComponent />
+        </SwiperSlide>
+        <SwiperSlide>
+          <HeaderSliderComponent />
+        </SwiperSlide>
+      </Swiper>
+  )
+}
 
-export default HeaderSlider;
+export default HeaderSlider

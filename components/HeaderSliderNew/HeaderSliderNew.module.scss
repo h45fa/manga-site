@@ -1,0 +1,53 @@
+.HeaderSliderToDay {
+  display: flex;
+  flex-direction: column;
+  padding-top: 71px;
+  
+
+  div {
+    display: flex;
+    margin: auto;
+    padding-bottom: 32px;
+
+    .HSTDTITLE {
+      font-family: "Book Antiqua";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 35px;
+      line-height: 42px;
+      color: #fafafa;
+    }
+
+    .btns {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      padding: 2px 101.5px;
+      gap: 20px;
+
+      button {
+        border: 2px solid #fafafa;
+        border-radius: 10px;
+        padding: 8px 30px;
+        color: white;
+        font-family: "Book Antiqua";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+      }
+    }
+
+    .dropdownBTN {
+      background: #ffffff;
+      border-radius: 10px;
+      padding: 8px 30px;
+      font-family: "Book Antiqua";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 22px;
+      color: #21222d;
+    }
+  }
+}
