@@ -16,13 +16,13 @@ const Header = () => {
         <h1><Link href="/">Kavun<span>Chan</span></Link></h1>
         <ul>
           <li>
-            <Link href="/">Каталог</Link>
+            <Link href="/catalog">Каталог</Link>
           </li>
           <li>
             <Link href="/">Новинки</Link>
           </li>
           <li>
-            <Link href="/">Популярне</Link>
+            <Link href="/popular">Популярне</Link>
           </li>
         </ul>
       </div>

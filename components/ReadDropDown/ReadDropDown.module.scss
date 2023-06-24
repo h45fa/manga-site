@@ -1,0 +1,78 @@
+.AddToFavorite {
+  background: #353641;
+  border-bottom: 1px solid #989aad;
+  border-radius: 15px;
+  width: 421px;
+  height: 62px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+
+  .favContainer {
+    margin: 16px 77.5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    width: 266px;
+    height: 30px;
+
+    .favText {
+      font-family: "Book Antiqua";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 25px;
+      line-height: 30px;
+      color: #ffffff;
+      width: 257px;
+      height: 30px;
+      justify-content: center;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .favSvg {
+      padding-top: 3px;
+      padding-bottom: 3px;
+      height: 30px;
+    }
+  }
+
+  &:hover {
+    background: #494a55;
+  }
+}
+
+.dropdown {
+  background: #353641;
+  border-radius: 15px 15px 0px 0px;
+}
+
+.dropdown_content {
+  position: absolute;
+  font-family: "Book Antiqua";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 30px;
+  color: #fafafa;
+
+  .dropdown_item {
+    padding: 16px 78px;
+    width: 421px;
+    height: 62px;
+    background: #353641;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    &:last-child {
+      border-radius: 0px 0px 15px 15px;
+    }
+
+    &:hover {
+      background: #494a55;
+    }
+  }
+}
