@@ -1,3 +1,9 @@
+.dropdown__unsel {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
 .dropdown__selected {
   display: flex;
   padding: 16px 20px;
@@ -26,7 +32,7 @@
   -ms-overflow-style: none;
 }
 
-.dropdown__menu::-webkit-scrollbar { 
+.dropdown__menu::-webkit-scrollbar {
   display: none;
 }
 

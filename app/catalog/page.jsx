@@ -2,61 +2,64 @@
 import Footer from "@/components/footer";
 import Header from "@/components/header";
 import styles from "./Catalog.module.scss";
-import React, { useState } from "react";
-import CategorySelect from "@/components/CategorySelect";
+import React from "react";
 import MultiDropdown from "@/components/CategorySelect";
+import DropdownSelectButton from "@/components/DropdownSelectButton";
+import CardCatalog from "@/components/CadrCatalog";
 const Catalog = () => {
-  
-  // const options = [
-  //   { value: "Апокаліпсис", label: "Апокаліпсис" },
-  //   { value: "Ваншот", label: "Ваншот" },
-  //   { value: "Вестерн", label: "Вестерн" },
-  //   { value: "Героїчне фентезі", label: "Героїчне фентезі" },
-  //   { value: "Готика", label: "Готика" },
-  //   { value: "Деменція", label: "Деменція" },
-  //   { value: "Детектив", label: "Детектив" },
-  //   { value: "Джьосей", label: "Джьосей" },
-  //   { value: "Доджінші", label: "Доджінші" },
-  //   { value: "Драма", label: "Драма" },
-  //   { value: "Екшн", label: "Екшн" },
-  //   { value: "Еротика", label: "Еротика" },
-  //   { value: "Еччі", label: "Еччі" },
-  //   { value: "Жахи", label: "Жахи" },
-  //   { value: "Ісекай", label: "Ісекай" },
-  //   { value: "Історія", label: "Історія" },
-  //   { value: "Йонкама", label: "Йонкама" },
-  //   { value: "Комедія", label: "Комедія" },
-  //   { value: "Магія", label: "Магія" },
-  //   { value: "Махо-шьоджьо", label: "Махо-шьоджьо" },
-  //   { value: "Махо-шьонен", label: "Махо-шьонен" },
-  //   { value: "Меха", label: "Меха" },
-  //   { value: "Містика", label: "Містика" },
-  //   { value: "Наукова фантастика", label: "Наукова фантастика" },
-  //   { value: "Омегаверс", label: "Омегаверс" },
-  //   { value: "Пародія", label: "Пародія" },
-  //   { value: "Повсякденність", label: "Повсякденність" },
-  //   { value: "Постапокаліпсис", label: "Постапокаліпсис" },
-  //   { value: "Пригоди", label: "Пригоди" },
-  //   { value: "Психологія", label: "Психологія" },
-  //   { value: "Романтика", label: "Романтика" },
-  //   { value: "Сейнен", label: "Сейнен" },
-  //   { value: "Спокон", label: "Спокон" },
-  //   { value: "Трагедія", label: "Трагедія" },
-  //   { value: "Триллер", label: "Триллер" },
-  //   { value: "Фантастика", label: "Фантастика" },
-  //   { value: "Фентезі", label: "Фентезі" },
-  //   { value: "Філософія", label: "Філософія" },
-  //   { value: "Шьоджьо", label: "Шьоджьо" },
-  //   { value: "Шьоджьо-ай", label: "Шьоджьо-ай" },
-  //   { value: "Юрі", label: "Юрі" },
-  //   { value: "Яой", label: "Яой" },
-  // ];
-
   return (
     <>
       <Header />
       <div className={styles.UseleStyle}>
-        <MultiDropdown/>
+        <div className={styles.Catalog}>
+          <div className={styles.Filters}>
+            <div className={styles.FFilter}>
+              <h3>Фільтри</h3>
+              <button>Очистити</button>
+            </div>
+            <div className={styles.TFilter}>
+              <MultiDropdown />
+              <MultiDropdown />
+            </div>
+            <div className={styles.SFilter}>
+              <h3>Оцінка</h3>
+              <div className={styles.Ocinka}>
+                <button>1</button>
+                <button>2</button>
+                <button>3</button>
+                <button>4</button>
+                <button>5</button>
+              </div>
+              <div className={styles.SFilter_Filters}>
+                <MultiDropdown />
+                <MultiDropdown />
+                <MultiDropdown />
+              </div>
+            </div>
+            <div className={styles.LFilter}>
+              <h3>Вилучити</h3>
+                <MultiDropdown />
+                <MultiDropdown />
+                <MultiDropdown />
+            </div>
+          </div>
+          <div className={styles.Cards}>
+            <div className={styles.CHeader}>
+              <h3>Каталог</h3>
+              <DropdownSelectButton/>
+            </div>
+            <div className={styles.CMain}>
+              <CardCatalog/>
+              <CardCatalog/>
+              <CardCatalog/>
+              <CardCatalog/>
+              <CardCatalog/>
+              <CardCatalog/>
+              <CardCatalog/>
+              <CardCatalog/>
+            </div>
+          </div>
+        </div>
       </div>
       <Footer />
     </>
